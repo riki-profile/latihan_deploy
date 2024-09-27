@@ -7,7 +7,7 @@ import streamlit as st
 import pickle
 
 # Load Model
-with open('model_fifa.pkl', 'rb') as file:
+with open('model_v2.pkl', 'rb') as file:
     model = pickle.load(file)
 
 def run():
